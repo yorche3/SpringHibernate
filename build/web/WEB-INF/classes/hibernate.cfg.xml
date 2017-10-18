@@ -47,5 +47,7 @@ Contributor(s):
     <property name="hibernate.connection.username">yorch3</property>
     <property name="hibernate.connection.password">1234</property>
     <mapping resource="modelo/pojo/Login.hbm.xml"/>
+    <mapping/>
+    <mapping resource="modelo/pojo/Foo.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

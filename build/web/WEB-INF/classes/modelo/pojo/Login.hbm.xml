@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 17/10/2017 05:53:05 PM by Hibernate Tools 4.3.1 -->
-<hibernate-mapping auto-import="true" >
-    <class name="modelo.pojo.Login" table="login" schema="public" optimistic-lock="version">
+<!-- Generated 18/10/2017 02:17:43 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="modelo.pojo.Login" table="login" schema="public">
         <id name="id" type="int">
             <column name="id" />
-            <generator class="assigned" />
+            <generator class="assigned"></generator>
         </id>
         <property name="correo" type="string">
             <column name="correo" length="60" not-null="true" unique="true" />
