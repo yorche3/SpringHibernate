@@ -6,12 +6,14 @@
 
 -Hibernate.cfg.xml: add Dialect, database Driver, url and setup credentials
 
+To add tablesand generate code:
+
 -Default package -> new file: Hibernate -> Reverse Engineering -> add tables
 
 -Model.Util -> new file: Hibernate -> HibernateUtil
 
 -Model.Pojo -> new file: Hibernate -> mapping files
 
--Model.Pojo: file.hbm.xml: <hibernate-mapping auto-import="true" >
+-Model.Pojo: file.hbm.xml: hibernate-mapping auto-import="true"
 
 
